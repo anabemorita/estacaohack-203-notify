@@ -68,6 +68,8 @@ body{
         display: block;
     }
 
+    
+
 }
 
 @media(min-width: 1024px){
@@ -80,4 +82,136 @@ body{
         width: 350px;
         display: block;
     }
+}
+
+.colunas img{
+    width: 40px;
+    padding: 20px;
+    background-color: rgb(83, 198, 94);
+    border-radius: 100%; 
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.colunas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.colunas p{
+    font-size: 15px;
+    color: gray;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.colunas h2{
+    margin-left: 33%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.email p{
+    color: rgb(126, 125, 125);
+    /*margin-left: 10%;
+    margin-right: 30%;*/
+    font-size: 15px;
+}  
+
+/*.email iframe{
+width: 40%;
+height: 50%;
+display: flex;
+padding-left: 60%;
+}*/
+
+input{
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+/*.email h3{
+    margin-left: 40%;
+    margin-right: 20%;
+}*/
+
+.email{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.nomes h3{
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+.nomes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nomes p{
+    color: darkgray;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-style: italic; 
+}
+
+#video{
+    margin-left: 5%;
+}
+
+
+.cadastro{
+    display: flex;
+}
+
+.cadastro button{
+    margin-left: -15px;
+    color: white;
+    background-color: rgb(83, 198, 94);
+    border-left: 5px solid rgb(83, 198, 94);
+    width: 80px;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.pessoas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer{
+    background-color: lightgray;
+    margin-bottom: 0;
+    height: 50px;
+}
+footer ul{
+    margin: auto;
+    padding-top: 15px;
+    display: flex;
+    list-style-type: none;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+}
+li{
+    margin-right: 20px;
 }
